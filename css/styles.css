@@ -1,0 +1,54 @@
+:root {
+--brand-colorblue:  #2196F3;
+--brand-colorblack: #000000;
+--text-color: #757575;
+--link-color: #757575;
+;
+}
+.body {
+}
+a {
+text-decoration: none;
+}
+ul {
+list-style-type: none;
+}
+p {
+color: var(--text-color);
+font-family: "roboto";
+}
+link {
+color: var(--link-color);
+}
+.logo-web {
+height: 31px;
+width: 145px;
+left: 215px;
+top: 24px;
+border-radius: nullpx;
+font-family: "roboto";
+color: var(--brand-colorblue);
+}
+.logo-studio {
+height: 31px;
+width: 145px;
+left: 215px;
+top: 24px;
+border-radius: nullpx;
+color: var(--brand-colorblack);
+}
+.header{
+
+}
+.main{
+
+}
+.footer{
+
+}
+
+.link .link:hover,
+.link .link:focus {
+
+
+}
