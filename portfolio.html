@@ -41,13 +41,13 @@
     <main>
       <!-- Герой -->
       <section>
-        <h1></h1>
-        <ul>
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+        <h1 hidden>Портфолио</h1>
+        <ul class="filter-title">
+          <li><button class="filter-btn" type="button">Все</button></li>
+          <li><button class="filter-btn" type="button">Веб-сайты</button></li>
+          <li><button class="filter-btn" type="button">Приложения</button></li>
+          <li><button class="filter-btn" type="button">Дизайн</button></li>
+          <li><button class="filter-btn" type="button">Маркетинг</button></li>
         </ul>
       </section>
       <!-- Категории -->
@@ -55,89 +55,99 @@
         <ul>
           <li>
             <div class="">
-              <img src="./images/img8.jpg" alt="Технокряк" />
-              <h2>Технокряк</h2>
-              <p>Веб-сайт</p>
+              <img src="./images/img8.jpg" alt="Технокряк"/>
+              <h2 class="project-title">Технокряк</h2>
+              <p class="project-descr">Веб-сайт</p>
             </div>
           </li>
           <li>
             <div class="">
-              <img
-                src="./images/img9.jpg"
-                alt="Постер New Orlean vs Golden Star"
-              />
-              <h2>Постер New Orlean vs Golden Star</h2>
-              <p>Дизайн</p>
+              <img src="./images/img9.jpg" alt="Постер New Orlean vs Golden Star"/>
+              <h2 class="project-title">Постер New Orlean vs Golden Star</h2>
+              <p class="project-descr">Дизайн</p>
             </div>
           </li>
           <li>
             <div class="">
-              <img src="./images/img10.jpg" alt="Ресторан Seafood" />
-              <h2>Ресторан Seafood</h2>
-              <p>Приложение</p>
+              <img src="./images/img10.jpg" alt="Ресторан Seafood"/>
+              <h2 class="project-title">Ресторан Seafood</h2>
+              <p class="project-descr">Приложение</p>
             </div>
           </li>
           <li>
             <div class="">
-              <img src="./images/img11.jpg" alt="Проект Prime" />
-              <h2>Проект Prime</h2>
-              <p>Маркетинг</p>
+              <img src="./images/img11.jpg" alt="Проект Prime"/>
+              <h2 class="project-title">Проект Prime</h2>
+              <p class="project-descr">Маркетинг</p>
             </div>
           </li>
           <li>
             <div class="">
-              <img src="./images/img12.jpg" alt="Проект Boxes" />
-              <h2>Проект Boxes</h2>
-              <p>Приложение</p>
+              <img src="./images/img12.jpg" alt="Проект Boxes"/>
+              <h2 class="project-title">Проект Boxes</h2>
+              <p class="project-descr">Приложение</p>
             </div>
           </li>
           <li>
             <div class="">
-              <img src="./images/img13.jpg" alt="Inspiration has no Borders" />
-              <h2>Inspiration has no Borders</h2>
-              <p>Веб-сайт</p>
+              <img src="./images/img13.jpg" alt="Inspiration has no Borders"/>
+              <h2 class="project-title">Inspiration has no Borders</h2>
+              <p class="project-descr">Веб-сайт</p>
             </div>
           </li>
           <li>
             <div class="">
-              <img src="./images/img14.jpg" alt="Издание Limited Edition" />
-              <h2>Издание Limited Edition</h2>
-              <p>Дизайн</p>
+              <img src="./images/img14.jpg" alt="Издание Limited Edition"/>
+              <h2 class="project-title">Издание Limited Edition</h2>
+              <p class="project-descr">Дизайн</p>
             </div>
           </li>
           <li>
             <div class="">
-              <img src="./images/img15.jpg" alt="" />
-              <h2>Проект LAB</h2>
-              <p>Маркетинг</p>
+              <img src="./images/img15.jpg" alt=""/>
+              <h2 class="project-title">Проект LAB</h2>
+              <p class="project-descr">Маркетинг</p>
             </div>
           </li>
           <li>
             <div class="">
-              <img src="./images/img16.jpg" alt="Growing Business" />
-              <h2>Growing Business</h2>
-              <p>Приложение</p>
+              <img src="./images/img16.jpg" alt="Growing Business"/>
+              <h2 class="project-title">Growing Business</h2>
+              <p class="project-descr">Приложение</p>
             </div>
           </li>
         </ul>
       </section>
     </main>
-    <footer class="footer">
+    <!-- FOOTER START -->
+    <footer class="footer-section">
       <a href=""
         ><span class="logo-web">Web</span
-        ><span class="logo-studio">Studio</span></a
-      >
-      <address>
-        <ul>
+        ><span class="logo-studiowhite">Studio</span>
+      </a>
+      <address class="footer-adress">
+        <ul class="footer-list">
           <li>
-            <a href="https://maps.app.goo.gl/mcxa1YL5RhLCHSpZ9"
-              >г. Киев, пр-т Леси Украинки, 26</a
+            <a
+              href="https://maps.app.goo.gl/mcxa1YL5RhLCHSpZ9"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><span class="real-adress">г. Киев, пр-т Леси Украинки, 26</span>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:info@devstudio.com"
+              ><span class="footer-list-link">info@example.com</span></a
             >
           </li>
-          <li><a href="mailto:info@devstudio.com">info@example.com </a></li>
-          <li><a href="tel:+380961111111">+38 099 111 11 11 </a></li>
+          <li>
+            <a href="tel:+380961111111"
+              ><span class="footer-list-link">+38 099 111 11 11</span></a
+            >
+          </li>
         </ul>
       </address>
     </footer>
+    <!-- FOOTER END -->
   </body>
 </html>
