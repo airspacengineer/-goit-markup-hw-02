@@ -90,7 +90,6 @@ body {
   color: var(--hero-white);
   width: 650px;
   font-size: 44px;
-  font-style: normal;
   font-weight: 900;
   line-height: 1.36;
   letter-spacing: 0.06em;
@@ -109,9 +108,7 @@ body {
 }
 .order {
   color: var(--hero-white);
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.88;
   letter-spacing: 0.06em;
@@ -130,7 +127,6 @@ body {
 } */
 .benefits-list-subtitle {
   font-size: 14px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -150,7 +146,6 @@ body {
 .title {
   font-family: Roboto;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -168,8 +163,6 @@ body {
 }
 .teammate {
   color: var(--text-color);
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -179,8 +172,6 @@ body {
 }
 .teammate-info {
   color: var(--link-color);
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
@@ -219,8 +210,6 @@ letter-spacing: 0.03em;
 }
 .footer-list-link {
   color: #ffffff99;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -230,6 +219,7 @@ letter-spacing: 0.03em;
   font-style: normal;
 }
 /* FOOTER SECTION END */
+
 /* ПОРТФОЛИО */
 /* .filter-title {
 
@@ -243,7 +233,6 @@ letter-spacing: 0.03em;
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
-  font-style: normal;
 }
 .filter-btn:hover,
 .filter-btn:focus {
@@ -251,14 +240,16 @@ letter-spacing: 0.03em;
   color: var(--hero-white);
 }
 /* Примеры проектов */
+.project-link {
+}
 .project-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-
 .project-descr {
+  color: var(--link-color);
   font-size: 16px;
   line-height: 1.9px;
 }
